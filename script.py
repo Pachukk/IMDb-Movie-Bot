@@ -3,7 +3,7 @@ class Script(object):
 
 My name is <a href=https://t.me/{}>{}</a>!
 
-<b>I can provide Movies. A Telegram Auto Filter Bot. Its Easy To Use Me :)
+<b>I can provide Series. A Telegram Auto Filter Bot. Its Easy To Use Me :)
 
 Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
 
@@ -12,7 +12,6 @@ Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
 <b>Here Is The Help For My Commands.</b>"""
 
     ABOUT_TXT = """<b>➥ My name: {}
-➥ Creator: <a href='https://t.me/zautekm'>Zaute Km</a>
 ➥ Library: <a href='https://docs.pyrogram.org/'>Pyrogram</a>
 ➥ Language: Python 𝟹
 ➥ Data Base: <a href='https://www.mongodb.com/'>MongoDB</a>
@@ -20,14 +19,10 @@ Just Add me to Your Group As Admin, Hit The Help Button For More Info..</b>"""
 ➥ Build Status: v2.0.1 [ Beta ]"""
 
     SOURCE_TXT = """<b>Source:</b>
-IMDb is a Open source project.
-Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 👈</a>
-
-<b>DEVS:</b>
-- <a href='https://t.me/josprojects'>Jos Projects</a>
+Source is private
 
 <b>SUPPORT GROUP</b>
-- <a href='https://t.me/+y53tWFUw6Q43NzE9'>Jos Movie Club</a>"""
+- <a href='https://t.me/T4TVSERIES1'>T4TVSERIES</a>"""
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
@@ -54,7 +49,7 @@ Source: <a href='https://github.com/josprojects/tgmoviebot'>GitHub - Click here 
 3. Buttons should be properly parsed as markdown format.
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/josprojects)</code>
+<code>[Button Text](buttonurl:https://t.me/T4TVSERIES1)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -251,7 +246,7 @@ This module only works for my admins
 
     FORCESUB_TXT = """**♦️ READ THIS INSTRUCTION ♦️**
 
-__🗣 In Order To Get The Movie Requested By You in Our Groups, You Will Have To Join Our Official Channel First. After That, Try Accessing That Movie Again From Our Group. I'll Send You That Movie Privately 🙈__
+__🗣 In Order To Get The Series Requested By You in Our Groups, You Will Have To Join Our Official Channel First. After That, Try Accessing That Series Again From Our Group. I'll Send You That Movie Privately 🙈__
 
 **👇 JOIN THIS CHANNEL & TRY AGAIN 👇**"""
 
@@ -279,7 +274,7 @@ Some URLs is Shortner
 • /short <code>(link)</code> - I will send the shorted links.
 
 <b>Example:</b>
-<code>/short https://t.me/josprojects</code>
+<code>/short https://t.me/T4TVSERIES1</code>
 
 <b>NOTE:</b>
 • IMDb should have admin privillage.
