@@ -43,7 +43,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, Script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ Add me to your Chat ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ Add me to your Chat ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
             InlineKeyboardButton('🕵️ Search here 🕵️', switch_inline_query_current_chat='')
             ],[
             InlineKeyboardButton('Channel', url='https://t.me/T4TVSERIES1'),
