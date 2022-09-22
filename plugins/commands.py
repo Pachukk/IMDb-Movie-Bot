@@ -46,6 +46,9 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add me to your Chat ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
             InlineKeyboardButton('🕵️ Search here 🕵️', switch_inline_query_current_chat='')
             ],[
+            InlineKeyboardButton('⭕️ Help', callback_data='help'),
+            InlineKeyboardButton('About ⭕️', callback_data='about')
+            ],[
             InlineKeyboardButton('Channel', url='https://t.me/T4TVSERIES1'),
             ],[
             InlineKeyboardButton('❌ Close the Menu ❌', callback_data='close_data')
@@ -88,6 +91,9 @@ async def start(client, message):
         buttons = [[
              InlineKeyboardButton('➕ Add me to your Chat ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true'),
             InlineKeyboardButton('🕵️ Search here 🕵️', switch_inline_query_current_chat='')
+            ],[
+            InlineKeyboardButton('⭕️ Help', callback_data='help'),
+            InlineKeyboardButton('About ⭕️', callback_data='about')
             ],[
             InlineKeyboardButton('Channel', url='https://t.me/T4TVSERIES1'),
             ],[
